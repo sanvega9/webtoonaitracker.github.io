@@ -1,0 +1,16 @@
+
+nav ul li a {
+  color: gray;             /* default color for all links */
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #222;             /* dark gray on hover */
+}
+
+nav ul li a.active {
+  color: black;            /* active page = black */
+  font-weight: 700;        /* slightly bolder */
+}
